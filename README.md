@@ -1,4 +1,3 @@
-# -100-8-dimensional-real-time-plotting
-Just an example of real time plotting in circular fashion in python.
-Here one program generates 100*8 dimensional random csv file in which each new row is generated every 0.5 seconds till 100 rows are complete and other program reads the csv and plots it as soon as new row is generated.
-Once 100 rows are plotted, it starts plotting the same points again and repeats the same process infinitely.
+# -100-8-dimensional-real-time-plotting-in-circular-fashion
+- 'Program for csv file' generates a 100x8 dimensional csv file. After every half second 8 new points are stored. Points keep getting stored untill 100 rows of the csv file are complete.
+- 'Program for real time visualization' - plots 8 points at a time i.e 1 point in each graph as soon as a new row is stored in the csv file. Once 100 points are plotted in each graph, the program starts plotting the same points again.
